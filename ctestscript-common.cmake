@@ -2,7 +2,7 @@
 #######################################################################
 
 # determine the hostname and set the site name accordingly
-site_name(krupp2) 
+site_name(CTEST_SITE) 
 
 # generate the build name
 set(CTEST_BUILD_NAME       "${CMAKE_SYSTEM_NAME}-${COMPILER_NAME}-${COMPILER_VERSION}-${CTEST_BUILD_CONFIGURATION}")
