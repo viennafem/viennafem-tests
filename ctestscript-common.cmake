@@ -13,7 +13,7 @@ set(CTEST_BINARY_DIRECTORY "${ROOT_DIRECTORY}/${CTEST_BUILD_NAME}")
 
 ctest_empty_binary_directory(${CTEST_BINARY_DIRECTORY})
 
-find_program(CTEST_GIT_COMMAND NAMES git)
+find_program(CTEST_GIT_COMMAND NAMES git C:/Programme/Git/bin/git.exe)
 find_program(CTEST_COVERAGE_COMMAND NAMES gcov)
 find_program(CTEST_MEMORYCHECK_COMMAND NAMES valgrind)
 
