@@ -10,7 +10,7 @@ set(COMPILER_NAME "GCC")
 set(COMPILER_VERSION "4.4.7")
 set(CTEST_BUILD_FLAGS -j2) # build tests in parallel
 set(CTEST_COMMAND "${CTEST_EXECUTABLE_NAME} -j2") # run tests in parallel
-set(WITH_MEMCHECK TRUE)
+set(WITH_MEMCHECK FALSE)
 set(WITH_COVERAGE FALSE)
 
 ########################################################################
